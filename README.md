@@ -56,24 +56,9 @@ cargo clippy        # không có cảnh báo ở src/api.rs, src/settings.rs, sr
  
 ---
  
-## 3. Cài bằng installer (khuyến nghị cho dùng lâu dài)
- 
-**Linux / macOS**
- 
-```sh
-curl -fsSL https://raw.githubusercontent.com/RuriMeiko/whalegate/main/install.sh | sh
-```
- 
-**Windows (PowerShell)**
- 
-```powershell
-irm https://raw.githubusercontent.com/RuriMeiko/whalegate/main/install.ps1 | iex
-```
- 
-Installer tải binary dựng sẵn, đặt vào `~/.whalegate/bin`, tạo shortcut Startup (Windows) hoặc systemd unit (Linux) để **tự chạy lại sau reboot**, và cấu hình `dsh` nếu có.
- 
-> Chạy trần bằng shell (như `./whalegate.exe serve`) thì tiến trình **chết là mất**, không ai bật lại. Đây là điểm khác biệt quan trọng — xem mục 8.
- 
+## 3. Cài bằng File 
+ Vào releases tải về nhé.
+
 ---
  
 ## 4. Thêm tài khoản
