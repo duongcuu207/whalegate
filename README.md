@@ -1,4 +1,4 @@
-# whalegate — Hướng dẫn sử dụng
+# Whalegate - Zcode Endpoint 
  
 Gateway biến session `chat.deepseek.com` của bạn thành endpoint API chuẩn, hỗ trợ **3 format**:
  
